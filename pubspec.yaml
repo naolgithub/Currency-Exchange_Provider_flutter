@@ -1,0 +1,26 @@
+name: moolax
+description: A foreign currency converter for travelers
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.7.0
+  equatable: ^2.0.3
+  http: ^0.13.4
+  shared_preferences: ^2.0.13
+  get_it: ^7.2.0
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.1.0
+
+flutter:
+
+  uses-material-design: true
